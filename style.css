@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(71, 71, 71);
+}
+
+.cont{
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 100px;
+}
+.item{
+  width: 160px;
+  height: 160px;
+  background-color: rgb(156, 156, 156);
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.visual_cont{
+  margin: 5px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#visual1{
+  height: 225px;
+}
+#visual{
+  border-radius: 10%;
+  background-color: rgb(204, 122, 122);
+}
+.column{
+  background-color: rgb(185, 185, 185);
+  width: 20px;
+  margin: 0 2px;
+}
